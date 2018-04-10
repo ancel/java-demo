@@ -4,6 +4,12 @@ import org.I0Itec.zkclient.IZkDataListener;
 import org.I0Itec.zkclient.ZkClient;
 import org.I0Itec.zkclient.ZkConnection;
 
+/**
+ * 添加节点数据监听器
+ * @author：ancel.wang
+ * @creattime：2018年4月10日 下午1:52:38 
+ * 
+ */  
 public class ZkClientWatcher2 {
 
     /** zookeeper地址 */

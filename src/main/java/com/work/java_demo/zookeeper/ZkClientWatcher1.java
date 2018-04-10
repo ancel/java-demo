@@ -7,7 +7,7 @@ import org.I0Itec.zkclient.ZkClient;
 import org.I0Itec.zkclient.ZkConnection;
 
 /**
- * 
+ * 对父节点添加子节点监听器
  * @author：ancel.wang
  * @creattime：2018年4月10日 上午10:27:42 
  * 
