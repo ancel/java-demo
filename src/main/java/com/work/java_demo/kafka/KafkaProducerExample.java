@@ -20,7 +20,7 @@ public class KafkaProducerExample {
     	 Producer<String, String> producer = new KafkaProducer<>(props);
     	 for (int i = 0; i < 10; i++){
     		 System.out.println(i);
-    		 producer.send(new ProducerRecord<String, String>("topic1", Integer.toString(i), Integer.toString(i)));
+    		 producer.send(new ProducerRecord<String, String>("topic3", Integer.toString(i), Integer.toString(i)));
     	 }
     	 producer.flush();
     	 producer.close();
